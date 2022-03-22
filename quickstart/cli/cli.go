@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/RPC/quickstart/model"
+	"github.com/leilei3167/RPC/quickstart/model"
 	"github.com/smallnest/rpcx/client"
 )
 

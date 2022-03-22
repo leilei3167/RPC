@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/RPC/quickstart/model"
+	"github.com/leilei3167/RPC/quickstart/model"
 
 	"github.com/smallnest/rpcx/server"
 )

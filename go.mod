@@ -1,4 +1,4 @@
-module github.com/RPC
+module github.com/leilei3167/RPC
 
 go 1.18
 
