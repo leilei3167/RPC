@@ -2,7 +2,10 @@ module github.com/leilei3167/RPC
 
 go 1.18
 
-require github.com/smallnest/rpcx v1.7.3
+require (
+	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475
+	github.com/smallnest/rpcx v1.7.3
+)
 
 require (
 	github.com/akutz/memconn v0.1.0 // indirect
@@ -56,7 +59,6 @@ require (
 	github.com/onsi/ginkgo v1.16.5 // indirect
 	github.com/philhofer/fwd v1.1.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/rpcxio/libkv v0.5.1-0.20210420120011-1fceaedca8a5 // indirect
 	github.com/rs/cors v1.8.2 // indirect
 	github.com/rubyist/circuitbreaker v2.2.1+incompatible // indirect
