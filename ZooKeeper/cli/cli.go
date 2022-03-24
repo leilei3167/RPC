@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	zkAddr   = flag.String("zkAddr", "localhost:2181", "zookeeper address")
+	zkAddr   = flag.String("zkAddr", "localhost:2183", "zookeeper address")
 	basePath = flag.String("base", "/rpcx_test", "prefix path")
 )
 
