@@ -8,7 +8,7 @@ import (
 )
 
 //将地址定义为常量
-var addr = flag.String("addr", "localhost:8080", "server addr")
+var addr = flag.String("addr", "localhost:8972", "server addr")
 
 func main() {
 	flag.Parse()
